@@ -6,8 +6,7 @@ function calculateNetSalary(basicSalary,benefits){
     let nssfPayment=calculateNssf(basicSalary,benefits);
     let netSalary=parseInt(grossPay-employeeTax-nhifPayment-nssfPayment);
     console.log(`Your Net Salary is ${netSalary}`);
-    //return netSalary;
-    }
+     }
 
 //function for calculating  tax
 function calculateTax(basicSalary,benefits){
@@ -33,7 +32,7 @@ if (grossPay<=24000){
 return tax;
 }
 
-//function to calculate NHIF
+//function to calculate NHIF payments
 function calculateNhif(basicSalary,benefits){
 let nhif=0;
 let grossPay=parseInt(basicSalary+benefits);
@@ -97,7 +96,7 @@ return nhif;
 
 }
 
-//function calculate NSSF
+//function to calculate NSSF payments
 function calculateNssf(basicSalary,benefits){
     let nssf=0;
     let grossPay=parseInt(basicSalary+benefits);
@@ -114,5 +113,7 @@ function calculateNssf(basicSalary,benefits){
     return nssf;
     
     }
+
+    //Call the calculateNetSalary function with the basic Salary and benefits to test if working correctly
 
 calculateNetSalary(2000,100000);

@@ -1,3 +1,4 @@
+//Takes in input from the user and output a grade according to the grade entered.
 const studentGrade=function(studentMarks){
 let marks=prompt("Enter student marks-Between 0 and 100");
 studentMarks=parseInt(marks);
@@ -28,4 +29,5 @@ else
 }
 }
 
+// Calls the studentGrade function to test if this script is working well
 studentGrade();

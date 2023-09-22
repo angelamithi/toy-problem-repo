@@ -1,3 +1,4 @@
+// function for detecting travelling speed
 function speedDetector (travellingSpeed){
 if (travellingSpeed <=70){
     console.log("OK")
@@ -5,7 +6,8 @@ if (travellingSpeed <=70){
 {
     calculateSpeedLimit(travellingSpeed);
 }
-    
+//function for calculating the speed you are travelling over the speed Limit 
+//It also calculates and outputs the demerit points 
 function calculateSpeedLimit(travellingSpeed) {
     const acceptedSpeedLimit=70;
     let demeritPoints=0;
@@ -65,6 +67,6 @@ function calculateSpeedLimit(travellingSpeed) {
               
     }
 }
-
+//Call the speedDetector function and pass it travelling speed to check if working correctly.
 speedDetector(125);
 speedDetector(135);

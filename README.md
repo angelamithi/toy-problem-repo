@@ -1,6 +1,11 @@
-1. Student Grade Calculator
+Title: Student Grade Calculator
+
+Description:
 
 This is a simple JavaScript program that calculates and assigns a grade to a student based on their input marks. The program prompts the user to enter student marks and then determines the corresponding grade based on predefined grade ranges.
+
+Setup Instructions:
+
 To use this program, follow these steps:
 
 •	Clone or download this repository to your local machine.
@@ -24,9 +29,19 @@ o	E grade: Marks less than 40
 An alert message is displayed with the calculated grade.
 If the user enters marks outside the 0 to 100 range, it displays an alert message asking them to enter marks within the valid range.
 
-2. Speed Detector and Demerit Points Calculator
+Author: Angela Mithi
+License: This project is not licensed under any specific open-source license. It is provided for educational purposes and can be reused and modified by anyone for educational and non-commercial use.
+
+
+
+Title: Speed Detector and Demerit Points Calculator
+
+Description:
 
 This is a simple JavaScript program that calculates demerit points for drivers based on their traveling speed relative to the accepted speed limit. It provides feedback to the driver and, in case of excessive speeding, can lead to a license suspension.
+
+Setup Instructions:
+
 To use this program, follow these steps:
 
 •	Clone or download this repository to your local machine.
@@ -50,13 +65,22 @@ Code Explanation
 •	Based on the difference, it calculates demerit points and provides feedback to the driver.
 •	If the difference is equal to or greater than 60, it may suspend the driver's license.
 
+Author: Angela Mithi
+License: This project is not licensed under any specific open-source license. It is provided for educational purposes and can be reused and modified by anyone for educational and non-commercial use.
 
-3. Net Salary Calculator
+
+Title : Net Salary Calculator
+
+Description:
 This JavaScript program calculates the net salary of an employee based on their basic salary and benefits. It also calculates the employee's KRA payer tax, NHIF (National Health Insurance Fund) payment, and NSSF (National Social Security Fund) payment.
+
+Setup Instructions:
 
 •	Import the JavaScript file containing the code into your project.
 •	Call the calculateNetSalary function with the employee's basic salary and benefits as arguments to calculate the net salary.
       example : calculateNetSalary(basicSalary, benefits);
+
+Code Explanation:
 
 Functions
 
@@ -119,3 +143,6 @@ Calculates the NSSF payment based on the gross pay.
 
 The Nssf payments are 6 % of your gross pay where the upper earning limit is Ksh 18,000 .
 This means if the gross pay is more than 18,000 the NSSF payment will be 6% of Ksh 18,000
+
+Author: Angela Mithi
+License: This project is not licensed under any specific open-source license. It is provided for educational purposes and can be reused and modified by anyone for educational and non-commercial use.
